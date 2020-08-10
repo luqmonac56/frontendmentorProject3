@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(images/bg-intro-mobile.png);
+    color: #fff;
+    font-family: 'josefin Sans';
+    box-sizing: border-box;
+
+}
+
+.first{
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.second{
+    margin-top: 70px;
+    margin-bottom: 5rem;
+}
+
+.second .inner{
+    background: hsl(248, 32%, 49%);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.inner p{
+    margin: auto;
+}
+
+.second .form{
+    background: hsl(0, 0%, 100%);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 500px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+}
+
+form{
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+form p{
+    color: #000;
+}
+form .inner-div{
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+}
+form div img{
+    display: none;
+    padding-right: 10px;
+    height: 23px;
+    margin: auto;
+    
+}
+
+#first-name p , #last-name p, #email-address p,#password p{
+    color: hsl(0, 100%, 74%);
+    text-align: right;
+    margin-top: 0;
+    font-size: 15px;
+    display: none;
+}
+
+input{
+    border: none;
+    padding-left: 1rem;
+    outline: none;
+    flex: 1;
+}
+
+input[type="submit"]{
+   background: hsl(154, 59%, 51%);
+   height: 40px;
+   width: 100%;
+   color: #fff;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   margin-bottom: 50px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+
+}
+
+@media (min-width:700px){
+
+.total{
+    display: flex;
+}
+.first{
+    flex: 1;
+}
+.second{
+    flex: 1;
+}
+
+
+.first{
+    margin-top: 250px;
+    text-align: left;
+    margin-bottom: 70px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+}
